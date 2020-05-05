@@ -17,7 +17,7 @@ const nav = [
   },
 ];
 const sidebar = {
-  '/note/': ['front', 'php'],
+  '/note/': ['front', 'php', 'vuepress'],
   '/about/': ['author', 'contact'],
   // '/': [''],
 };
@@ -25,8 +25,13 @@ module.exports = {
   title: 'LORD OF RING',
   description: 'Inspired by Lord of the Rings',
   port: 9966,
+  markdown: {
+    lineNumbers: true,
+  },
   themeConfig: {
     logo: '',
+    sidebarDepth: 2,
+    smoothScroll: true, // 启用页面滚动效果
     nav,
     sidebar,
   },
