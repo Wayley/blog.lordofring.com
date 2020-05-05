@@ -1,4 +1,4 @@
-# PHP(EN_US)
+# PHP
 
 ## PHP 语法
 

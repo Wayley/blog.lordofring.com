@@ -1,4 +1,4 @@
-# VuePress 的使用 (EN_US)
+# VuePress 的使用
 
 ## VuePress 环境搭建
 
