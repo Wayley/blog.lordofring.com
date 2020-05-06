@@ -1,3 +1,5 @@
+const frontEndSidebar = ['html', 'css'];
+
 module.exports = {
   title: 'LORD OF RING',
   description: 'Inspired by Lord of the Rings',
@@ -25,7 +27,9 @@ module.exports = {
         ariaLabel: 'Select language',
         lastUpdated: 'Last Updated',
         nav: require('./nav/en.js'),
-        sidebar: require('./sidebar/en.js'),
+        sidebar: {
+          '/note/front-end/': frontEndSidebar,
+        },
       },
       '/_zh/': {
         label: '简体中文',
@@ -33,7 +37,9 @@ module.exports = {
         ariaLabel: '选择语言',
         lastUpdated: '上次更新',
         nav: require('./nav/zh.js'),
-        sidebar: require('./sidebar/zh.js'),
+        sidebar: {
+          '/_zh/note/front-end/': frontEndSidebar,
+        },
       },
     },
   },
