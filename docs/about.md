@@ -1,5 +1,0 @@
-# About
-
-## About Author
-
-## Contact

@@ -1,1 +1,0 @@
-# SOME NOTES (EN_US)
