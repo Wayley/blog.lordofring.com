@@ -10,5 +10,6 @@ module.exports = {
     repo: 'Wayley',
     sidebarDepth: 2,
     smoothScroll: true, // 启用页面滚动效果
+    nav: require('./nav/en.js'),
   },
 };
