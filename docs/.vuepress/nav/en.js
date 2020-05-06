@@ -9,12 +9,6 @@ module.exports = [
       { text: 'vuepress', link: '/note/vuepress' },
     ],
   },
-  { text: 'About', link: '/about/' },
   { text: 'Life', link: '/life/' },
-  {
-    text: 'Github',
-    link: 'https://github.com/Wayley',
-    target: '_blank',
-    rel: '',
-  },
+  { text: 'About', link: '/about/' },
 ];
