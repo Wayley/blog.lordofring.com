@@ -25,7 +25,7 @@ module.exports = {
         ariaLabel: 'Select language',
         lastUpdated: 'Last Updated',
         nav: require('./nav/en.js'),
-        // sidebar: require('./sidebar/en.js'),
+        sidebar: require('./sidebar/en.js'),
       },
       '/_zh/': {
         label: '简体中文',
@@ -33,7 +33,7 @@ module.exports = {
         ariaLabel: '选择语言',
         lastUpdated: '上次更新',
         nav: require('./nav/zh.js'),
-        // sidebar: require('./sidebar/zh.js'),
+        sidebar: require('./sidebar/zh.js'),
       },
     },
   },
