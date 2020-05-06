@@ -15,6 +15,7 @@ module.exports = {
   },
   themeConfig: {
     logo: '',
+    repo: 'Wayley',
     sidebarDepth: 2,
     smoothScroll: true, // 启用页面滚动效果
     locales: {
@@ -24,6 +25,7 @@ module.exports = {
         ariaLabel: 'Select language',
         lastUpdated: 'Last Updated',
         nav: require('./nav/en.js'),
+        sidebar: require('./sidebar/en.js'),
       },
       '/zh/': {
         label: '简体中文',
@@ -31,6 +33,7 @@ module.exports = {
         ariaLabel: '选择语言',
         lastUpdated: '上次更新',
         nav: require('./nav/zh.js'),
+        sidebar: require('./sidebar/zh.js'),
       },
     },
   },
