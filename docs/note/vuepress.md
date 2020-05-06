@@ -1,3 +1,8 @@
+---
+sidebarDepth: 2
+sidebar: auto
+---
+
 # VuePress 的使用 (EN_US)
 
 ## VuePress 环境搭建
