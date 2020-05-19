@@ -1,4 +1,4 @@
-const frontEndSidebar = ['html', 'css'];
+const { getSideBar } = require('./utils.js');
 
 module.exports = {
   title: 'LORD OF RING',
@@ -28,7 +28,7 @@ module.exports = {
         lastUpdated: 'Last Updated',
         nav: require('./nav/en.js'),
         sidebar: {
-          '/note/front-end/': frontEndSidebar,
+          '/note/front-end/': getSideBar('../note/front-end/'),
         },
       },
       '/_zh/': {
@@ -38,7 +38,7 @@ module.exports = {
         lastUpdated: '上次更新',
         nav: require('./nav/zh.js'),
         sidebar: {
-          '/_zh/note/front-end/': frontEndSidebar,
+          '/_zh/note/front-end/': getSideBar('../_zh/note/front-end/'),
         },
       },
     },
