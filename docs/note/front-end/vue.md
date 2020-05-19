@@ -1,8 +1,8 @@
 # vue-notes
 
-## use gzip in vue-cli
+## Use Gzip
 
-> with `[compression-webpack-plugin]`(https://webpack.js.org/plugins/compression-webpack-plugin/), we can
+> with `[compression-webpack-plugin]`(https://webpack.js.org/plugins/compression-webpack-plugin/), we can do some things
 
 ### Install Plugin
 
