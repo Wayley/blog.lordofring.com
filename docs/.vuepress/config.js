@@ -1,4 +1,5 @@
-const { getSideBar } = require('./utils.js');
+const { getSideBar, getFrontEndSidebar } = require('./utils.js');
+const { nav_en, nav_zh, frontEndSidebarChildren } = require('./_config.js');
 
 module.exports = {
   title: 'LORD OF RING',
@@ -26,9 +27,13 @@ module.exports = {
         selectText: 'Languages',
         ariaLabel: 'Select language',
         lastUpdated: 'Last Updated',
-        nav: require('./nav/en.js'),
+        nav: nav_en,
         sidebar: {
-          '/note/front-end/': getSideBar('../note/front-end/'),
+          '/note/front-end/': getFrontEndSidebar(
+            'FE',
+            'Introduction',
+            frontEndSidebarChildren
+          ),
         },
       },
       '/_zh/': {
@@ -36,9 +41,13 @@ module.exports = {
         selectText: '选择语言',
         ariaLabel: '选择语言',
         lastUpdated: '上次更新',
-        nav: require('./nav/zh.js'),
+        nav: nav_zh,
         sidebar: {
-          '/_zh/note/front-end/': getSideBar('../_zh/note/front-end/'),
+          '/_zh/note/front-end/': getFrontEndSidebar(
+            '前端',
+            '介绍',
+            frontEndSidebarChildren
+          ),
         },
       },
     },
